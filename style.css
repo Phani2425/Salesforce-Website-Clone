@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+*{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+Font-family: 'poppins',sans-serif;
+transition: all 0.15s ease-out;
+}
+p{
+    font-family: 'Roboto' ;
+    font-size: 20px;
+    line-height: 28px;
+    color: #032d60d6;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+
+}
+h1{
+    font-size: 3.5rem;
+    line-height: 63px;
+    color: #032d60;
+}
+h2{
+    font-size: 2.5rem;
+    line-height: 56px;
+    color: #032d60;
+}
+h3{
+    font-size: 1.5rem;
+    line-height: 40px;
+    color: #032d60;;
+}
+h4{
+    font-size: 20px;
+    line-height: 28px;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: #032d60;
+}
+a:hover{
+    color: #0176d3;
+}
+ul{
+    list-style: none;
+}
+button{
+    padding:12px 24px 12px 24px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+button:hover{
+    transform: scale(1.03);
+}
+img{
+    object-fit: cover;
+}
+:root{
+    --blue1:#032d60;
+    --blue2:#0b5cab;
+    --blue3:#0176d3;
+}
+.container{
+    max-width: 1280px;
+    margin-inline: auto;
+    overflow-x: hidden;
+}
+
+/* utility styling */
+.fix{
+    position:fixed;
+    width: 100%;
+    perspective: 10px;
+    z-index: 1;
+    box-shadow: 0 0 12px rgba(172, 172, 172, 0.83);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding:20px 25px 20px 25px;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--blue1);
+    gap: 20px;
+}
+#nav-link{
+    color: var(--blue1);
+}
+#nav-link:hover{
+    color: #0176d3;
+}
+.nav-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--blue1);
+    gap: 30px;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.cont a{
+    text-decoration: underline;
+    font-size: medium;
+    color: #324965;
+
+}
+.cont p{
+ font-size: small;
+}
+#nav-img{
+    height: 56px;
+    cursor: pointer;
+}
+.icon{
+    color: #032d60;
+    font-size: 1.5rem;
+}
+.cont-but1{
+   background-color: white;
+   color: #032d60;
+   border-radius: 8px;
+}
+.cont-but1:hover{
+    color: #0176d3;
+    box-shadow: 0 0 12px rgba(172, 172, 172, 0.83);
+}
+.cont-but2{
+    background-color: #2e844a;
+    border: #2e844a;
+    color: white;
+    border-radius: 8px;
+    
+ }
+ .cont-but2:hover{
+    background-color: #1f6135;
+    box-shadow: 0 0 12px rgba(172, 172, 172, 0.83);
+}
+.hero{
+    padding-top: 98px;
+    display: flex;
+    gap: 320px;
+    justify-content: space-between;
+    background-image: url(image/php-marquee-starter-lg-bg.jpg);
+    background-size: cover;
+    overflow-y: hidden;
+    padding-bottom: 10px;
+}
+.herotxt{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 45px;
+    
+}
+.hero-but{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+.heromed{
+    height: 145px;
+    width: 700px;
+
+}
+.media{
+    width: 540px;
+    height: 300px;
+    position: relative;
+    top: 90px;
+    right: 100px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.media:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px #0174d31f;
+}
+.but1{
+    color: white;
+    background-color: #0176d3;
+    border:2px solid #0176d3;
+    border-radius: 6px;
+    padding: 17px 34px 17px 34px;
+}
+.but1:hover{
+    background-color: #032d60;
+}
+.but2{
+    color: #0176d3;
+    border: 2px solid #0176d3;
+    border-radius: 6px;
+    padding: 17px 34px 17px 34px;
+}
+.but2:hover{
+    color: #032d60;
+    border-color: #032d60;
+    background-color: #2f70b130;
+}
