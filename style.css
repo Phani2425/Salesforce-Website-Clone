@@ -214,3 +214,51 @@ img{
     border-color: #032d60;
     background-color: #2f70b130;
 }
+.prodtxt{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 70px 250px;
+    margin-top: 20px;
+}
+.product{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fefefe;
+}
+.card1{
+    border: 0.8px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px black;
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+    width: 280px;
+    border-radius: 18px;
+    gap: 30px;
+    box-shadow: 0 0 12px rgba(172, 172, 172, 0.83);
+    cursor: pointer;
+}
+.card-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 17px;
+    padding:13px 27px 0px 27px;
+ 
+}
+#card{
+    border-radius: 17px;
+}
+#prod-sec{
+width: 100%;
+position: relative;
+bottom: 180px;
+}
+.bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 540px;
+}
